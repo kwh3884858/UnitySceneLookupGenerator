@@ -15,7 +15,8 @@ Using '-h' for more information.
 
 Example command line:
 (Assuming in Terminal/Shell)
-```C#
-sh ./SceneLookupGenerator -a '/User/YourProject/Assets/Scenes' -o '/User/YourProject/Assets/Scenes'
+```Shell
+
+mono SceneLookupGenerator.exe -s /Users/User/Documents/UnityProjectFolder/Hippocampus/Assets/Scenes -o /Users/User/Documents/UnityProjectFolder/Hippocampus/Assets/Scenes
 
 ```

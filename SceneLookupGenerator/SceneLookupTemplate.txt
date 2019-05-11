@@ -8,21 +8,21 @@
 //------------------------------------------------------------------------------
 public static class SceneLookup {
 
-    #CONSTANT#
+#CONSTANT#
 
     private const int TotalComponents = #TOTAL#;
 
     private static readonly string[] sceneLists = {
-        #SCENENAME#
+#SCENENAME#
     };
 
-	public static string Get(SceneLookupEnum eScene)
-	{
-		return sceneLists [(int)eScene];
-	}
+    public static string Get(SceneLookupEnum eScene)
+    {
+     return sceneLists [(int)eScene];
+    }
 }
 
 public enum SceneLookupEnum
 {
-    #SCENEENUM#
+#SCENEENUM#
 }
